@@ -92,4 +92,6 @@ public static class FunctionLibrary
     {
         return Vector3.LerpUnclamped(from(u, v, t), to(u, v, t), SmoothStep(0f, 1f, progress));
     }
+
+    public static int FunctionCount => functions.Length;
 }
