@@ -17,7 +17,7 @@ float4 _ColorB;
 float4 _Color;
 float4 _SequenceNumbers;
 
-float GetFractalColor()
+float4 GetFractalColor()
 {
 #if defined(UNITY_PROCEDURAL_INSTANCING_ENABLED)
 	float4 color;
